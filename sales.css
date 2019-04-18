@@ -1,0 +1,102 @@
+body{
+	display: flex;
+	justify-content: center;
+	font-family: Open Sans,sans-serif;
+	background-image: url(sales-landing-page-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100vh;
+
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: space-evenly;
+}
+.container2{
+	display: flex;
+	flex-direction: column;	
+	/*margin-top: 40px;*/
+	margin-bottom: 30px;
+}
+.logo{
+	display: flex;
+	justify-content: center;	
+	margin-bottom: 30px;
+}
+.image{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.title{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.button{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.375rem;
+	background-color: #46897A;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 0 24px;
+	height: 46px;
+	font-family: Open Sans,sans-serif;
+
+}
+.instructions{
+	margin-top: 65px;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.875rem;
+}
+.steps{
+	color: #fff;
+	margin: 0 auto;
+	font-weight: 500;
+
+}
+em{
+	color: #fff;
+	margin-top: 5px; 
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 800px) {
+.image {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.logo{
+	margin-bottom: 20px;
+}
+.title{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.button{
+	font-size: 15px;
+}
+.steps{
+	margin-bottom: 10px;
+}
+.container2{
+	margin: 0 5%;
+}
+}
+
